@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[Order]
+(
+	[PK_OrderID] INT NOT NULL PRIMARY KEY
+)
