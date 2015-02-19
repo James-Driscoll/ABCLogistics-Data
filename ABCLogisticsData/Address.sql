@@ -1,5 +1,6 @@
 ﻿CREATE TABLE [dbo].[Address] (
     [PK_AddressID] INT            IDENTITY (1, 1) NOT NULL,
+	[Name]		   NVARCHAR (MAX) NOT NULL,
     [Street]       NVARCHAR (MAX) NOT NULL,
     [Town]         NVARCHAR (MAX) NULL,
     [County]       NVARCHAR (MAX) NULL,
