@@ -1,10 +1,10 @@
 ﻿CREATE TABLE [dbo].[Item] (
     [PK_ItemID]        INT           IDENTITY (1, 1) NOT NULL,
-    [Name] INT NOT NULL,
-	[Weight]           INT           NULL,
-    [SizeCategory]     NCHAR (10)    NULL,
-    [Type]             NVARCHAR (50) NULL,
-    [InsuranceType]    NCHAR (10)    NULL,
-    [RecordedDelivery] NCHAR (10)    NULL,
+    [Name] NVARCHAR(50) NOT NULL,
+	[Weight]           INT           NOT NULL,
+    [SizeCategory]     NVARCHAR(50)    NOT NULL,
+    [Type]             NVARCHAR (50) NOT NULL,
+    [Insured]    BIT    NOT NULL,
+    [RecordedDelivery] BIT    NOT NULL,
     PRIMARY KEY CLUSTERED ([PK_ItemID] ASC)
 );

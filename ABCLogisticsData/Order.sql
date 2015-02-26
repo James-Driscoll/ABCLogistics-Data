@@ -6,7 +6,7 @@
     [FK_DeliveryAddressID] INT            NOT NULL,
     [DateOrdered]          DATE           NOT NULL,
     [DateDelivered]        DATE           NULL,
-    [Status]               NVARCHAR (MAX) NULL,
+    [Status]               NVARCHAR (50) NULL,
     PRIMARY KEY CLUSTERED ([PK_OrderID] ASC),
     CONSTRAINT [C_BranchAddress] FOREIGN KEY ([FK_BranchAddressID]) REFERENCES [dbo].[Address] ([PK_AddressID]),
     CONSTRAINT [C_Customer] FOREIGN KEY ([FK_CustomerID]) REFERENCES [dbo].[User] ([PK_UserID]),
