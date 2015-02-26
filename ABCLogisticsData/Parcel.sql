@@ -4,5 +4,5 @@
 	[Weight] INT NOT NULL,
 	[Insured] BIT NOT NULL,
 	[DateOrdered] DATE NOT NULL,
-	[CustomerName] VARCHAR(50) NOT NULL,
+	[Customer] INT NOT NULL,
 )
