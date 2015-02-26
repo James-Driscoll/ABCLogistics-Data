@@ -59,11 +59,9 @@
     <Folder Include="Properties" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Order.sql" />
-    <Build Include="Address.sql" />
-    <Build Include="Item.sql" />
     <Build Include="User.sql" />
     <Build Include="Tracking.sql" />
+    <Build Include="Parcel.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ABCLogisticsData.refactorlog" />

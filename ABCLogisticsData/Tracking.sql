@@ -4,6 +4,5 @@
     [Location]      NVARCHAR (50) NOT NULL,
     [Date]          DATE           NOT NULL,
     [Status]        NVARCHAR (50) NOT NULL,
-    PRIMARY KEY CLUSTERED ([PK_TrackingID] ASC),
-	CONSTRAINT [C_Order] FOREIGN KEY ([FK_OrderID]) REFERENCES [dbo].[Order] ([PK_OrderID]),
+    PRIMARY KEY CLUSTERED ([PK_TrackingID] ASC)
 );
