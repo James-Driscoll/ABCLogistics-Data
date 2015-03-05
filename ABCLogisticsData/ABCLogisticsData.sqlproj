@@ -62,6 +62,7 @@
     <Build Include="User.sql" />
     <Build Include="Tracking.sql" />
     <Build Include="Parcel.sql" />
+    <Build Include="Branch.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ABCLogisticsData.refactorlog" />
